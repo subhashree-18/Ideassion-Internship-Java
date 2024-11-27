@@ -1,0 +1,42 @@
+package com.firstconnection.testproject.controller;
+
+import com.firstconnection.testproject.model.Person;
+import com.firstconnection.testproject.service.PersonService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/persons")
+public class PersonController {
+
+    @Autowired
+    private PersonService personService;
+
+    @GetMapping
+    public List<Person> getAllPersons() {
+        return personService.getAllPersons();
+    }
+
+    @PostMapping
+    public Person createPerson(@RequestBody Person person) {
+        return personService.savePerson(person);
+    }
+
+    @GetMapping("/{id}")
+    public Person getPersonById(@PathVariable Long id) {
+        return personService.getPersonById(id);
+    }
+
+    @PutMapping("/{id}")
+    public Person updatePerson(@PathVariable Long id, @RequestBody Person personDetails) {
+        return personService.updatePerson(id, personDetails);
+    }
+
+    @DeleteMapping("/{id}")
+    public String deletePerson(@PathVariable Long id) {
+        personService.deletePerson(id);
+        return "Person with ID " + id + " deleted successfully.";
+    }
+}

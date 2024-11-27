@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 <?xml version="1.0" encoding="UTF-8"?>
->>>>>>> be4d2180592ef18d75d32216447ebd47c17722a2
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -56,16 +53,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
-
-        <!-- Jackson Databind for JSON (Add this dependency) -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.15.0</version> <!-- Or the latest version -->
-        </dependency>
-=======
->>>>>>> be4d2180592ef18d75d32216447ebd47c17722a2
     </dependencies>
 
     <build>

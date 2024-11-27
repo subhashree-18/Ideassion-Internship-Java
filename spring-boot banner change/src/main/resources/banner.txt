@@ -1,0 +1,9 @@
+${AnsiColor.YELLOW}*************************************************
+${AnsiColor.CYAN}*                                               *
+${AnsiColor.CYAN}*      ${AnsiColor.RED}__        __   _                          
+${AnsiColor.CYAN}*      ${AnsiColor.GREEN}\ \      / /__| | ___ ___  _ __ ___   ___ 
+${AnsiColor.CYAN}*      ${AnsiColor.YELLOW}\ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+${AnsiColor.CYAN}*      ${AnsiColor.BLUE} \ V  V /  __/ | (_| (_) | | | | | |  __/
+${AnsiColor.CYAN}*      ${AnsiColor.MAGENTA}  \_/\_/ \___|_|\___\___/|_| |_| |_|\___|
+${AnsiColor.CYAN}*                                               *
+${AnsiColor.YELLOW}*************************************************
