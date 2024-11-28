@@ -20,8 +20,4 @@ An E-Commerce platform built with **Java (Spring Boot)** and **JPA**, designed t
 - **MySQL**: Relational database management system for storing product, user, and order data..
 - **Postman**: For testing and interacting with the API.
 
-## Setup and Installation
 
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
